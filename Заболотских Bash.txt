@@ -1,0 +1,55 @@
+$ ls
+$ cd Desktop/
+$ mkdir BAY 
+$ ls
+$ cd BAY
+$ mkdir OAK CHAIN CAT
+$ cd OAK/
+$ mkdir GREEN
+$ cd GREEN/
+$ touch bay1.txt
+$ cd ..
+$ cd ..
+$ ls
+$ cd CHAIN
+$ mkdir GOLD
+$ cd GOLD/
+$ touch bay2.txt
+$ cd ..
+$ cd ..
+$ ls
+$ cd CAT
+$ mkdir BLACK
+$ cd BLACK/
+$ touch bay3.txt bay4.txt
+$ cd Desktop/BAY/OAK/GREEN
+$ nano bay1.txt
+$ cd ..
+$ cd ..
+$ cd CHAIN/GOLD/
+$ nano bay2.txt
+$ cd ..
+$ cd ..
+$ cd CAT/BLACK
+$ nano bay3.txt
+$ nano bay4.txt
+$ cp Desktop/BAY/CHAIN/GOLD/bay2.txt Desktop/BAY/OAK/GREEN/bay22.txt
+$ cp Desktop/BAY/CAT/BLACK/bay3.txt Desktop/BAY/OAK/GREEN/
+$ cp Desktop/BAY/CAT/BLACK/bay4.txt  Desktop/BAY/OAK/GREEN/
+$ cd Desktop/BAY/OAK/GREEN/
+$ touch bay.txt
+$ cat bay1.txt bay22.txt bay3.txt bay4.txt >bay.txt
+
+
+
+
+
+
+
+
+
+
+
+
+
+
